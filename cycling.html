@@ -1,0 +1,124 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <title>Highletics</title>
+</head>
+   <style>
+        #myVideo {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+          }
+          
+          /* Add some content at the bottom of the video/page */
+          .content {
+            position: fixed;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            color: #f1f1f1;
+            width: 100%;
+            padding: 20px;
+            right:0px;
+            left:0px;
+          }
+          nav{
+            width: 100%;
+            position:fixed;
+            height: 70px;
+            background-color: #0005;
+            line-height: 50px;
+            top:0px;
+            left:0px;
+            right:0px;
+          }
+          nav ul{
+            float: right;
+            margin-right: 30px;
+            padding:0px;
+        
+            top:0px;
+            margin-top: 5px;
+          }
+          nav ul li{
+            list-style-type: none;
+            display: inline-block;
+            transition: 0.7s all;
+            top:0px;
+            
+          }
+          nav ul li:hover{
+            background-color:#000;
+          }
+          nav ul li a{
+            text-decoration: none;
+            color: #fff;
+            padding: 30px;
+            top:0px;
+          }
+          
+          /* Style the button used to pause/play the video */
+          #myBtn {
+            width: 200px;
+            font-size: 18px;
+            padding: 10px;
+            border: none;
+            background: #000;
+            color: #fff;
+            cursor: pointer;
+          }
+          
+          #myBtn:hover {
+            background: #ddd;
+            color: black;
+          }
+
+          #myBtn1{
+            width: 200px;
+            font-size: 18px;
+            padding: 10px;
+            border: none;
+            background: #000;
+            color: #fff;
+            cursor: pointer;
+            left:60px;
+          }
+          #myBtn1:hover {
+            background: #ddd;
+            color: black;
+          }
+
+    </style>
+  
+  <body>
+ 
+<video autoplay muted loop id="myVideo">
+    <source src="C:\Users\RAJLAXMI\Downloads\1080410582-preview.mp4" type="video/mp4">
+  </video>
+  
+    <!-- Optional: some overlay text to describe the video -->  
+
+<div id="abc">
+
+  <nav>
+    <ul>
+        <li><a href="#">Discover</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Airways</a></li>
+        <li><a href="#">Book Tickets</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </ul>
+</nav>
+</div>
+  <div class="content">
+    <h1>Ajnara Daffodils Cycling Event</h1>
+    <h2>
+        FREE REGISTRATION
+    </h2>
+    <p>Exciting prizes worth upto 10000 and gift vouchers upto 2000. Loren ipsum gypsum</p>
+    <button id="myBtn" >REGISTER</button>
+    <button id="myBtn1">SAVE</button>
+  </div>
+  </body>
+</html> 
