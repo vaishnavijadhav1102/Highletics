@@ -1,1 +1,3 @@
 # Highletics
+
+Imagine a world where sports enthusiasts can effortlessly connect and engage in their favorite games. Our revolutionary application brings this vision to life by offering a seamless platform for registering in local/national sports events based on users' location. It empowers individuals to host events, form teams, and embrace an active lifestyle. By fostering a strong sports community, our app promotes physical fitness, mental well-being, and a sense of camaraderie among people from diverse backgrounds. As we continue to grow, our future plan of live streaming games will further unite sports lovers worldwide, inspiring a healthier and more connected society.
